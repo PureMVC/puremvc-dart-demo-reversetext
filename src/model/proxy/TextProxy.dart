@@ -1,7 +1,7 @@
 class TextProxy extends MVCProxy
 {
-  static String NAME = "TextProxy";
-  static String TEXT_CHANGED = "text/changed";
+  static final String NAME = "TextProxy";
+  static final String TEXT_CHANGED = "text/changed";
   
   TextProxy():super( NAME ){
   }
