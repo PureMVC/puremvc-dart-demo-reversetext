@@ -1,12 +1,7 @@
 class TextProxy extends MVCProxy
 {
-<<<<<<< HEAD
-  static final String NAME = "TextProxy";
-  static final String TEXT_CHANGED = "text/changed";
-=======
   static const String NAME = "TextProxy";
   static const String TEXT_CHANGED = "text/changed";
->>>>>>> Changed static finals to static consts
   
   TextProxy():super( NAME ){
   }
