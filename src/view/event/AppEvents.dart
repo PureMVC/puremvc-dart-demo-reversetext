@@ -1,4 +1,4 @@
 class AppEvents 
 {
-  static final String INPUT_TEXT_CHANGED = "text/changed";
+  static const String INPUT_TEXT_CHANGED = "text/changed";
 }
