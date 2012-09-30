@@ -1,16 +1,17 @@
-PureMVC Dart Demo - ReverseText
-Ported from the PureMVC JavaScript ReverseText Demo
-Copyright(c) 2012 David Foley <david.foley@puremvc.org>, Cliff Hall <cliff.hall@puremvc.org>
-PureMVC - Copyright(c) 2006-2012 Futurescale, Inc., All rights reserved.
+PureMVC Reverse Text Demo for Dart
 --------------------------------------------------------------------------
-Release Date: 09/16/2012
+Release Date: 09/29/2012
     Platform: Google Dart
-     Version: 1 
-    Revision: 5
+     Version: 2
+    Revision: 0
+       Minor: 0
      Authors: Cliff Hall <cliff@puremvc.org>
             : David Foley <david.foley@puremvc.org>
-     License: Creative Commons Attribution 3.0 United States License
+     License: BSD 3-Clause
 --------------------------------------------------------------------------
+2.0 - Added pubspec, renamed app, changed license, refactored to use
+      PureMVC 2.0.0 (framework class names changed, use package prefix).
+      
 1.5 - Changed static finals to static consts following a breaking change
       to the Dart language leading up to the M1 release.
       
