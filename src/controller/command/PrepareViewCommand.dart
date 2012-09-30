@@ -1,6 +1,6 @@
-class PrepareViewCommand extends MVCSimpleCommand
+class PrepareViewCommand extends mvc.SimpleCommand
 {
-  void execute( INotification note ) 
+  void execute( mvc.INotification note ) 
   {
     facade.registerMediator( new TextComponentMediator( new TextComponent() ) );
   }

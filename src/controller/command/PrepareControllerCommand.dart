@@ -1,6 +1,6 @@
-class PrepareControllerCommand extends MVCSimpleCommand
+class PrepareControllerCommand extends mvc.SimpleCommand
 {
-  void execute( INotification note ) 
+  void execute( mvc.INotification note ) 
   {
     facade.registerCommand( AppNotes.PROCESS, () => new ProcessTextCommand() );
   }

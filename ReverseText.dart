@@ -2,7 +2,7 @@
 #import('dart:html');
 
 // PureMVC Framework for Dart
-#import('http://svn.puremvc.org/PureMVC_Dart/trunk/src/puremvc.dart');
+#import('package:puremvc/puremvc.dart', prefix:'mvc');
 
 // Model Tier
 #source('src/model/proxy/TextProxy.dart');
@@ -23,7 +23,7 @@
 void main()
 {
   // Get a unique multiton Facade instance for the application 
-  IFacade facade = MVCFacade.getInstance( AppNotes.APPNAME );
+  mvc.IFacade facade = mvc.Facade.getInstance( AppNotes.APPNAME );
   
   // Startup the application's PureMVC core
   facade.registerCommand( AppNotes.STARTUP, () => new StartupCommand() );

@@ -1,6 +1,6 @@
-class ProcessTextCommand extends MVCSimpleCommand
+class ProcessTextCommand extends mvc.SimpleCommand
 {
-  void execute( INotification note ) 
+  void execute( mvc.INotification note ) 
   {
     // Get the text to be processed from the notification
     String text = note.body;

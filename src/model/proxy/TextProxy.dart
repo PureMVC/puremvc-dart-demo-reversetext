@@ -1,4 +1,4 @@
-class TextProxy extends MVCProxy
+class TextProxy extends mvc.Proxy
 {
   static const String NAME = "TextProxy";
   static const String TEXT_CHANGED = "text/changed";

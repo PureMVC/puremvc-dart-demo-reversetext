@@ -1,4 +1,4 @@
-class TextComponentMediator extends MVCMediator
+class TextComponentMediator extends mvc.Mediator
 {
   // Name Mediator will be registered as 
   static String NAME = "TextComponentMediator";
@@ -36,7 +36,7 @@ class TextComponentMediator extends MVCMediator
   }
   
   // Called when a notification this Mediator is interested in is sent
-  void handleNotification( INotification note ) 
+  void handleNotification( mvc.INotification note ) 
   {
     switch (note.name) 
     {

@@ -1,4 +1,4 @@
-class StartupCommand extends MVCMacroCommand 
+class StartupCommand extends mvc.MacroCommand 
 {
   void initializeMacroCommand() 
   {
