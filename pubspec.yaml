@@ -14,6 +14,6 @@ author: Cliff Hall <cliff.hall@puremvc.org>
 homepage: http://www.puremvc.org
 dependencies:
   puremvc:
-    git: https://github.com/PureMVC/puremvc-dart-multicore-framework.git
+    git: git://github.com/PureMVC/puremvc-dart-multicore-framework.git
   unittest:
     sdk: unittest
