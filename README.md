@@ -29,9 +29,9 @@ Have an Mediator show interest in certain Notifications and handle them by updat
 Twitter's Bootstrap is used only for its Base CSS, to make it look pretty.
 
 ## License
-* PureMVC Reverse Text Demo for JavaScript - Copyright(c) 2012 David Foley, 
-* PureMVC Reverse Text Demo ported to Dart - Copyright(c) 2012 Cliff Hall
-* PureMVC Framework - Copyright(c) 2006-2012 Futurescale, Inc.
+* PureMVC Reverse Text Demo for JavaScript - Copyright © 2012 David Foley, 
+* PureMVC Reverse Text Demo ported to Dart - Copyright © 2012 Cliff Hall
+* PureMVC Framework - Copyright © 2006-2012 Futurescale, Inc.
 All rights reserved.
 
 * Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:

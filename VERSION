@@ -7,7 +7,6 @@ Release Date: 09/29/2012
        Minor: 0
      Authors: Cliff Hall <cliff@puremvc.org>
             : David Foley <david.foley@puremvc.org>
-     License: BSD 3-Clause
 --------------------------------------------------------------------------
 2.0 - Added pubspec, renamed app, changed license, refactored to use
       PureMVC 2.0.0 (framework class names changed, use package prefix).
