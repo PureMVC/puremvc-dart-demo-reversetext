@@ -21,7 +21,7 @@ Keep in mind that this demo is not about achieving the smallest amount of code, 
 Demonstrated are how to...
 * Use a Facade instance to initialize and startup a PureMVC core.
 Prepare the Model, View, and Controller regions of the PureMVC core using a MacroCommand and SimpleCommands.
-* Use an MVCMediator to forward user input from view components on to other parts of a PureMVC core for processing.
+* Use a Mediator to forward user input from view components on to other parts of a PureMVC core for processing.
 * Use business logic in a SimpleCommand that both updates data in a Proxy and conditionally notifies an Mediator with information about the process.
 Store data in an Proxy, and have the Proxy notify the rest of the core when that data is changed.
 Have an Mediator show interest in certain Notifications and handle them by updating its view component.
