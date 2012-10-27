@@ -1,0 +1,1 @@
+{"packages":{"puremvc":{"version":"2.0.0","source":"git","description":{"url":"git://github.com/PureMVC/puremvc-dart-multicore-framework.git","ref":null,"resolved-ref":"079ab2902807f62a2e898b550bf993d550831894"}},"unittest":{"version":"0.0.0-r.13851","source":"sdk","description":"unittest"}}}
