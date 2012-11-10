@@ -8,7 +8,7 @@ This simple demo shows the most common actors and collaborations found in a Pure
 ![PureMVC Dart Demo: Reverse Text](http://puremvc.org/pages/images/screenshots/PureMVC-Shot-Dart-ReverseText.png)
 
 ## Status
-Production - [Version 2.0](https://github.com/PureMVC/puremvc-dart-demo-reversetext/blob/master/VERSION)
+Production - [Version 2.0.1](https://github.com/PureMVC/puremvc-dart-demo-reversetext/blob/master/VERSION)
 
 ## Platforms / Technologies
 * [Google Dart](http://www.dartlang.org)
