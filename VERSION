@@ -4,10 +4,12 @@ Release Date: 11/10/2012
     Platform: Google Dart
      Version: 2
     Revision: 0
-       Minor: 1
+       Minor: 2
      Authors: Cliff Hall <cliff@puremvc.org>
             : David Foley <david.foley@puremvc.org>
 --------------------------------------------------------------------------
+2.0.2 - Updated pubspec.yaml to pull in PureMVC from pub.dartlang.org
+
 2.0.1 - Minor update to fix the import/source/part/'part of' syntax. Also 
         it was necessary to add a library declaration get the app to compile,
         otherwise the following compile-time error appears on every class:

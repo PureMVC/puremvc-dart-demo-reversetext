@@ -9,11 +9,8 @@ description: >
     text after reversal, the output text box's label changes to indicate that
     a palindrome was detected.
 
-version: 2.0.1
+version: 2.0.2
 author: Cliff Hall <cliff.hall@puremvc.org>
 homepage: http://www.puremvc.org
 dependencies:
-  puremvc:
-    git: git://github.com/PureMVC/puremvc-dart-multicore-framework.git
-  unittest:
-    sdk: unittest
+  puremvc: any
