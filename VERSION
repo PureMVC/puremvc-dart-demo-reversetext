@@ -1,13 +1,16 @@
 PureMVC Reverse Text Demo for Dart
 --------------------------------------------------------------------------
-Release Date: 11/10/2012
+Release Date: 01/14/2013
     Platform: Google Dart
      Version: 2
     Revision: 0
-       Minor: 2
+       Minor: 3
      Authors: Cliff Hall <cliff@puremvc.org>
             : David Foley <david.foley@puremvc.org>
 --------------------------------------------------------------------------
+2.0.3 - Updated pubspec.yaml to pull in dart.js from pub.dartlang.org
+        Changed ReverseText.html to point to packages/browser/dart.js
+
 2.0.2 - Updated pubspec.yaml to pull in PureMVC from pub.dartlang.org
 
 2.0.1 - Minor update to fix the import/source/part/'part of' syntax. Also 

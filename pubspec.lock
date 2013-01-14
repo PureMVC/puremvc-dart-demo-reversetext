@@ -1,1 +1,1 @@
-{"packages":{"puremvc":{"version":"2.0.3","source":"hosted","description":"puremvc"},"unittest":{"version":"0.2.10+1","source":"hosted","description":"unittest"}}}
+{"packages":{"browser":{"version":"0.0.1","source":"hosted","description":"browser"},"puremvc":{"version":"2.0.3","source":"hosted","description":"puremvc"},"unittest":{"version":"0.2.10+1","source":"hosted","description":"unittest"}}}

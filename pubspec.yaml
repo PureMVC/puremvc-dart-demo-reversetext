@@ -13,4 +13,5 @@ version: 2.0.2
 author: Cliff Hall <cliff.hall@puremvc.org>
 homepage: http://www.puremvc.org
 dependencies:
+  browser: any
   puremvc: any
