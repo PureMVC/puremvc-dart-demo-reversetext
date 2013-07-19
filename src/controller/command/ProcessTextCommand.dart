@@ -8,11 +8,11 @@ class ProcessTextCommand extends mvc.SimpleCommand
     String text = note.body;
 
     // Process the text
-    List chars = text.splitChars();
+    List chars = text.split('');
     StringBuffer buffer = new StringBuffer();
     var i = chars.length;
     while (i > 0) {
-      buffer.add(chars[i -1]);
+      buffer.write(chars[i -1]);
       i--;
     }
     chars = null;

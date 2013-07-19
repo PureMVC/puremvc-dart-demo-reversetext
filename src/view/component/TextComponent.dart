@@ -36,9 +36,9 @@ class TextComponent
   void set isPalindrome ( bool izzit )
   {
     if (izzit) {
-      textOutputLabel.innerHTML = "Palindrome Detected";
+      textOutputLabel.innerHtml = "Palindrome Detected";
     } else {
-      textOutputLabel.innerHTML = "Output Text";
+      textOutputLabel.innerHtml = "Output Text";
     }
   }
 
@@ -108,6 +108,6 @@ class TextComponent
   {
     Event event = document.$dom_createEvent("HTMLEvents");
     event.$dom_initEvent(AppEvents.INPUT_TEXT_CHANGED, true, true);
-    textForm.$dom_dispatchEvent( event );
+    textForm.dispatchEvent( event );
   }
 }
