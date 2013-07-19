@@ -8,14 +8,14 @@ This simple demo shows the most common actors and collaborations found in a Pure
 ![PureMVC Dart Demo: Reverse Text](http://puremvc.org/pages/images/screenshots/PureMVC-Shot-Dart-ReverseText.png)
 
 ## Status
-Production - [Version 2.0.3](https://github.com/PureMVC/puremvc-dart-demo-reversetext/blob/master/VERSION)
+Production - [Version 2.0.4](https://github.com/PureMVC/puremvc-dart-demo-reversetext/blob/master/VERSION)
 
 ## Platforms / Technologies
 * [Google Dart](http://www.dartlang.org)
 * JavaScript, DOM
 * [Bootstrap Base CSS](http://twitter.github.com/bootstrap/base-css.html)
 
-## Features 
+## Features
 Keep in mind that this demo is not about achieving the smallest amount of code, but rather to demonstrate the classes, responsibilities, and collaboration patterns that are typically used in a PureMVC-based application of any size.
 
 Demonstrated are how to...
@@ -29,9 +29,9 @@ Have an Mediator show interest in certain Notifications and handle them by updat
 Twitter's Bootstrap is used only for its Base CSS, to make it look pretty.
 
 ## License
-* PureMVC Reverse Text Demo for JavaScript - Copyright © 2012 David Foley, 
-* PureMVC Reverse Text Demo ported to Dart - Copyright © 2012 Cliff Hall
-* PureMVC Framework - Copyright © 2006-2012 Futurescale, Inc.
+* PureMVC Reverse Text Demo for JavaScript - Copyright © 2012 David Foley,
+* PureMVC Reverse Text Demo ported to Dart - Copyright © 2013 Cliff Hall
+* PureMVC Framework - Copyright © 2006-2013 Futurescale, Inc.
 All rights reserved.
 
 * Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
