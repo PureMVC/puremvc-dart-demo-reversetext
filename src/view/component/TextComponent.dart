@@ -13,21 +13,21 @@ class TextComponent
   TextComponent()
   {
     // use HTML5 querySelector for DOM retrieval
-    textForm         = document.query('#textForm');
-    textInput        = textForm.query('#inputText');
-    textOutput       = textForm.query('#outputText');
-    textOutputLabel  = textForm.query('#outputTextLabel');
-    checkbox         = textForm.query('input[type=checkbox]');
-    reverseButton    = textForm.query('button[type=submit]');
+    textForm         = querySelector('#textForm');
+    textInput        = textForm.querySelector('#inputText');
+    textOutput       = textForm.querySelector('#outputText');
+    textOutputLabel  = textForm.querySelector('#outputTextLabel');
+    checkbox         = textForm.querySelector('input[type=checkbox]');
+    reverseButton    = textForm.querySelector('button[type=submit]');
 
     // listen to checkbox state changes
-    checkbox.$dom_addEventListener( 'change', handleEvent );
+    checkbox.onChange.listen(handleEvent);
 
     // listen to reverse button clicks
-    reverseButton.$dom_addEventListener( 'click', handleEvent );
+    reverseButton.onClick.listen(handleEvent );
 
     // Listen for input
-    textInput.$dom_addEventListener( 'keyup', this.handleEvent );
+    textInput.onKeyUp.listen(handleEvent);
   }
 
   /**
@@ -98,7 +98,7 @@ class TextComponent
   void addEventListener( String type, EventListener listener )
   {
     // delegate to #textForm
-    textForm.$dom_addEventListener( type, listener );
+    textForm.addEventListener(type, listener );
   }
 
   /**
@@ -106,8 +106,7 @@ class TextComponent
    */
   void dispatchTextChangedEvent()
   {
-    Event event = document.$dom_createEvent("HTMLEvents");
-    event.$dom_initEvent(AppEvents.INPUT_TEXT_CHANGED, true, true);
+    Event event = new Event.eventType("HTMLEvents", AppEvents.INPUT_TEXT_CHANGED, canBubble: true, cancelable: true);
     textForm.dispatchEvent( event );
   }
 }
